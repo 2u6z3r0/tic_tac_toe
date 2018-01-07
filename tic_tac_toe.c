@@ -85,7 +85,7 @@ int main(){
   printf("Welcome to TIC TAC TOE game\n");
   do{
     printf("Select Below option\n");
-    printf("1. 2 players\n2. Play with computer");
+    printf("1. 2 players\n2. Play with computer\n");
     scanf("%d",&mode);
   }
   while(mode<1 || mode>2);
